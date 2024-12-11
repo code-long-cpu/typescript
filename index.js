@@ -16,3 +16,8 @@ function count(x, y) {
 }
 let result = count(1, 2);
 console.log(result);
+const src = [1, 2, 3];
+const dst = [0];
+console.log(src);
+src.forEach((el) => dst.push(el));
+console.log(dst);
